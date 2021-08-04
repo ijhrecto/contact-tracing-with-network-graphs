@@ -1,0 +1,21 @@
+﻿person,contact,contact_type,age,illnesses,num_of_rooms_in_home,num_of_elderly_person_living_with_them,confirmed_covid
+p1,p2;p3;p4;p5;p6;p10;p11;p15;,family;family;family;colleague;colleague;colleague;colleague;colleague;,55,diabetes,3,1,TRUE
+p2,p1;p3;p4;p14;,family;family;family;schoolmate;,19,none,3,1,FALSE
+p3,p1;p2;p4;,family;family;family;,67,asthma,3,0,FALSE
+p4,p1;p2;p3;p12;,family;family;family;colleague;,24,none,3,1,FALSE
+p5,p1;p7;,colleague;colleague;,38,asthma,1,0,TRUE
+p6,p1;p10;p11;p15;,colleague;colleague;colleague;colleague;,45,diabetes,1,0,TRUE
+p7,p5;p8;p9;,colleague;family;family;,35,none,1,0,FALSE
+p8,p7;p9;,family;family;,34,diabetes,1,0,FALSE
+p9,p7;p8;p18;,family;family;schoolmate;,8,none,1,0,FALSE
+p10,p1;p6;p11;p15;,colleague;colleague;colleague;colleague;,28,none,2,0,FALSE
+p11,p1;p6;p10;p15;,colleague;colleague;colleague;colleague;,42,asthma,3,0,TRUE
+p12,p4;p16;p17;,colleague;schoolmate;schoolmate;,22,none,2,0,FALSE
+p13,p14;p15;,family;family;,49,none,1,0,FALSE
+p14,p2;p13;p15;,schoolmate;family;family;,18,asthma,1,0,FALSE
+p15,p1;p10;p13;p14;,colleague;colleague;family;family;,52,heart disease,1,0,FALSE
+p16,p12;p17;,schoolmate;schoolmate;,20,none,2,0,FALSE
+p17,p12;p16;,schoolmate;schoolmate;,21,heart disease,3,0,FALSE
+p18,p9;p19;p20;,schoolmate;family;family;,9,none,2,2,FALSE
+p19,p18;p20;,family;family;,62,none,2,1,FALSE
+p20,p18;p19;,family;family;,68,asthma,2,1,FALSE

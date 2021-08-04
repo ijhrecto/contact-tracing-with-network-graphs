@@ -1,0 +1,21 @@
+﻿person,confirmed_covid,with_symptoms,age,health_condition,contact,contact_type,,num_of_room,num_of_elderly,occupation
+p1,TRUE,common,55,diabetes,p2;p3;p4;p5;p6;p10;p11;p15;,family;family;family;colleague;colleague;colleague;colleague;colleague;,,3,1,other
+p2,FALSE,none,19,none,p1;p3;p4;p14;,family;family;family;schoolmate;,,3,1,none
+p3,FALSE,none,67,asthma,p1;p2;p4;,family;family;family;,,3,1,none
+p4,FALSE,none,24,none,p1;p2;p3;p12;,family;family;family;colleague;,,3,1,medical
+p5,TRUE,common,38,asthma,p1;p7;,colleague;colleague;,,1,0,other
+p6,TRUE,common,45,diabetes,p1;p10;p11;p15;,colleague;colleague;colleague;colleague;,,1,0,frontliner
+p7,FALSE,common,35,none,p5;p8;p9;,colleague;family;family;,,1,0,other
+p8,FALSE,none,34,diabetes,p7;p9;,family;family;,,1,0,other
+p9,FALSE,none,8,none,p7;p8;p18;,family;family;schoolmate;,,1,0,none
+p10,FALSE,none,28,none,p1;p6;p11;p15;,colleague;colleague;colleague;colleague;,,2,0,medical
+p11,TRUE,none,42,asthma,p1;p6;p10;p15;,colleague;colleague;colleague;colleague;,,3,0,other
+p12,FALSE,common,22,none,p4;p16;p17;,colleague;schoolmate;schoolmate;,,2,0,other
+p13,FALSE,none,49,none,p14;p15;,family;family;,,1,0,frontliner
+p14,FALSE,serious,18,asthma,p2;p13;p15;,schoolmate;family;family;,,1,0,none
+p15,FALSE,less_common,52,heart disease,p1;p10;p13;p14;,colleague;colleague;family;family;,,1,0,other
+p16,FALSE,less_common,20,none,p12;p17;,schoolmate;schoolmate;,,2,0,none
+p17,FALSE,none,21,heart disease,p12;p16;,schoolmate;schoolmate;,,3,0,none
+p18,FALSE,none,9,none,p9;p19;p20;,schoolmate;family;family;,,2,2,none
+p19,FALSE,common,62,none,p18;p20;,family;family;,,2,2,medical
+p20,FALSE,none,68,asthma,p18;p19;,family;family;,,2,2,none
